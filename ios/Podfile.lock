@@ -1,0 +1,40 @@
+PODS:
+  - FBSDKCoreKit (8.2.0):
+    - FBSDKCoreKit/Basics (= 8.2.0)
+    - FBSDKCoreKit/Core (= 8.2.0)
+  - FBSDKCoreKit/Basics (8.2.0)
+  - FBSDKCoreKit/Core (8.2.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (8.2.0):
+    - FBSDKLoginKit/Login (= 8.2.0)
+  - FBSDKLoginKit/Login (8.2.0):
+    - FBSDKCoreKit (~> 8.2.0)
+  - Flutter (1.0.0)
+  - flutter_login_facebook (0.3.0):
+    - FBSDKLoginKit (~> 8.0)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_login_facebook (from `.symlinks/plugins/flutter_login_facebook/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_login_facebook:
+    :path: ".symlinks/plugins/flutter_login_facebook/ios"
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: 4afd6ff53d8133a433dbcda44451c9498f8c6ce4
+  FBSDKLoginKit: 7181765f2524d7ebf82d9629066c8e6caafc99d0
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_login_facebook: 86e1415ecde2d59ca72c5760fd53d1d1952017fb
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.10.0.beta.2
